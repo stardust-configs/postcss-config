@@ -1,0 +1,39 @@
+{
+  "name": "@stardust-configs/postcss-config",
+  "version": "0.1.0",
+  "description": "Shareable PostCSS config",
+  "keywords": [
+    "postcss",
+    "postcss-config"
+  ],
+  "homepage": "https://github.com/stardust-configs/postcss-config#readme",
+  "bugs": "https://github.com/stardust-configs/postcss-config#issues",
+  "license": "MIT",
+  "author": "P-Chan",
+  "files": [
+    "index.js",
+    "postcss.config.js"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stardust-configs/postcss-config.git"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "version:major": "standard-version -r major",
+    "version:minor": "standard-version -r minor",
+    "version:patch": "standard-version -r patch"
+  },
+  "dependencies": {
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^6.7.0"
+  },
+  "devDependencies": {
+    "@stardust-configs/prettier-config": "^0.1.1",
+    "prettier": "^2.4.1"
+  },
+  "peerDependencies": {
+    "postcss": "^8.0.0"
+  }
+}
