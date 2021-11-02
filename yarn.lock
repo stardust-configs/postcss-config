@@ -506,7 +506,7 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@stardust-configs/prettier-config@^0.1.1":
+"@stardust-configs/prettier-config@0.1.1":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@stardust-configs/prettier-config/-/prettier-config-0.1.1.tgz#b79ee6bcd84c926501cd0f4e3b0f02f2bfb57415"
   integrity sha512-KVNeDikcETcc9IuK69kk66O01I/8TdtzY6T4RTcjoqPJtD1NLe/cQkWTTAY6vqXZ8blOwexkOLFv11pXrZTjRA==
@@ -2268,7 +2268,7 @@ postcss-env-function@^2.0.2:
     postcss "^7.0.2"
     postcss-values-parser "^2.0.0"
 
-postcss-flexbugs-fixes@^5.0.2:
+postcss-flexbugs-fixes@5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-5.0.2.tgz#2028e145313074fc9abe276cb7ca14e5401eb49d"
   integrity sha512-18f9voByak7bTktR2QgDveglpn9DTbBWPUzSOe9g0N4WR/2eSt6Vrcbf0hmspvMI6YWGywz6B9f7jzpFNJJgnQ==
@@ -2325,7 +2325,7 @@ postcss-lab-function@^2.0.1:
     postcss "^7.0.2"
     postcss-values-parser "^2.0.0"
 
-postcss-load-config@^3.1.0:
+postcss-load-config@3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/postcss-load-config/-/postcss-load-config-3.1.0.tgz#d39c47091c4aec37f50272373a6a648ef5e97829"
   integrity sha512-ipM8Ds01ZUophjDTQYSVP70slFSYg3T0/zyfII5vzhN6V57YSxMgG5syXuwi5VtS8wSf3iL30v0uBdoIVx4Q0g==
@@ -2377,7 +2377,7 @@ postcss-place@^4.0.1:
     postcss "^7.0.2"
     postcss-values-parser "^2.0.0"
 
-postcss-preset-env@^6.7.0:
+postcss-preset-env@6.7.0:
   version "6.7.0"
   resolved "https://registry.yarnpkg.com/postcss-preset-env/-/postcss-preset-env-6.7.0.tgz#c34ddacf8f902383b35ad1e030f178f4cdf118a5"
   integrity sha512-eU4/K5xzSFwUFJ8hTdTQzo2RBLbDVt83QZrAvI07TULOkmyQlnYlpwep+2yIK+K+0KlZO4BvFcleOCCcUtwchg==
@@ -2504,7 +2504,7 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-prettier@^2.4.1:
+prettier@2.4.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.4.1.tgz#671e11c89c14a4cfc876ce564106c4a6726c9f5c"
   integrity sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==
