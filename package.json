@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@stardust-configs/prettier-config": "0.1.1",
-    "jest": "27.3.1",
+    "jest": "27.4.2",
     "postcss": "8.3.11",
     "postcss-load-config": "3.1.0",
     "prettier": "2.4.1"
