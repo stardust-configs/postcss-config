@@ -19,7 +19,7 @@ yarn add @stardust-configs/postcss-config --dev
 Edit `postcss.config.js`
 
 ```js
-module.exports = requrire('@stardust-configs/postcss-config')
+module.exports = require('@stardust-configs/postcss-config')
 ```
 
 ## Author
