@@ -1,3 +1,5 @@
+import { beforeAll, expect, test } from 'vitest'
+
 const postcss = require('postcss')
 const postcssrc = require('postcss-load-config')
 
