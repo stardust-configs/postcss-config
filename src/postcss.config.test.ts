@@ -6,7 +6,7 @@ import postcssrc from 'postcss-load-config'
 let rc: any
 
 beforeAll(async () => {
-  rc = await postcssrc({ from: undefined })
+  rc = await postcssrc({ from: undefined }, './src/postcss.config.ts')
 })
 
 test('CSS', async () => {
