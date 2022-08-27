@@ -16,10 +16,20 @@ yarn add @stardust-configs/postcss-config --dev
 
 ## Usage
 
-Edit `postcss.config.js`
+Edit `postcss.config.js`.
 
 ```js
-module.exports = require('@stardust-configs/postcss-config')
+module.exports = require('@stardust-configs/postcss-config').defaultConfig
+```
+
+## Override
+
+Override `postcss.config.js`.
+
+```js
+module.exports = require('@stardust-configs/postcss-config').defineConfig({
+  importFrom: './src/styles/variables.css',
+})
 ```
 
 ## Author
