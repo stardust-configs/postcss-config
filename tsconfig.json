@@ -1,0 +1,6 @@
+{
+  "extends": "@stardust-configs/tsconfig/node16.json",
+  "compilerOptions": {
+    "baseUrl": "./"
+  }
+}
