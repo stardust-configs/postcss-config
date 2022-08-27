@@ -36,7 +36,7 @@
     "postcss-load-config": "4.0.1",
     "prettier": "2.7.1",
     "standard-version": "9.5.0",
-    "vitest": "0.18.1"
+    "vitest": "0.22.1"
   },
   "peerDependencies": {
     "postcss": "^8.0.0"
