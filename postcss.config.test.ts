@@ -1,9 +1,9 @@
 import { beforeAll, expect, test } from 'vitest'
 
-const postcss = require('postcss')
-const postcssrc = require('postcss-load-config')
+import postcss from 'postcss'
+import postcssrc from 'postcss-load-config'
 
-let rc
+let rc: any
 
 beforeAll(async () => {
   rc = await postcssrc({ from: undefined })

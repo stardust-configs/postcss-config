@@ -20,6 +20,7 @@
     "url": "https://github.com/stardust-configs/postcss-config.git"
   },
   "scripts": {
+    "build": "tsup",
     "format": "prettier --write .",
     "test": "vitest",
     "version:major": "standard-version -r major",
@@ -32,10 +33,14 @@
   },
   "devDependencies": {
     "@stardust-configs/prettier-config": "0.1.1",
+    "@stardust-configs/tsconfig": "0.2.0",
     "postcss": "8.4.14",
     "postcss-load-config": "4.0.1",
     "prettier": "2.7.1",
     "standard-version": "9.5.0",
+    "ts-node": "10.9.1",
+    "tsup": "6.2.3",
+    "typescript": "4.8.2",
     "vitest": "0.18.1"
   },
   "peerDependencies": {
