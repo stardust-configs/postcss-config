@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/stardust-configs/postcss-config/compare/v0.2.0...v0.3.0) (2022-08-27)
+
+
+### Features
+
+* add defaultConfig and defineConfig ([6d021d8](https://github.com/stardust-configs/postcss-config/commit/6d021d8ba6db65640a7bf80ca172d99ac6104262))
+* change entry file ([28e58cf](https://github.com/stardust-configs/postcss-config/commit/28e58cfb224c772187e135e78d3b8917aa9fe08f))
+
 ## [0.2.0](https://github.com/stardust-configs/postcss-config/compare/v0.1.0...v0.2.0) (2022-07-22)
 
 
