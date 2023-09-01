@@ -36,7 +36,7 @@
   "devDependencies": {
     "@stardust-configs/prettier-config": "0.1.1",
     "@stardust-configs/tsconfig": "0.4.0",
-    "postcss": "8.4.24",
+    "postcss": "8.4.29",
     "postcss-load-config": "4.0.1",
     "prettier": "2.8.8",
     "standard-version": "9.5.0",
