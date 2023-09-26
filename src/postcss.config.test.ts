@@ -18,7 +18,7 @@ test('CSS', async () => {
 test('Custom Properties', async () => {
   const result = await postcss(rc.plugins).process(
     ':root { --primary-color: black; } html { background-color: var(--primary-color); }',
-    rc.options
+    rc.options,
   )
 
   expect(result.css).toBe(':root { --primary-color: black; } html { background-color: var(--primary-color); }')
@@ -27,7 +27,7 @@ test('Custom Properties', async () => {
 test('Custom Media Queries', async () => {
   const result = await postcss(rc.plugins).process(
     '@custom-media --media-query-phone (max-width: 428px); @media (--media-query-phone) { html { background-color: black; } }',
-    rc.options
+    rc.options,
   )
 
   expect(result.css).toBe('@media (max-width: 428px) { html { background-color: black; } }')
