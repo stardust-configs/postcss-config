@@ -43,7 +43,7 @@
     "ts-node": "10.9.1",
     "tsup": "7.2.0",
     "typescript": "5.2.2",
-    "vitest": "0.34.4"
+    "vitest": "0.34.6"
   },
   "peerDependencies": {
     "postcss": "^8.0.0"
