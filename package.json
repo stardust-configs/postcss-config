@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "postcss-flexbugs-fixes": "5.0.2",
-    "postcss-preset-env": "9.1.4"
+    "postcss-preset-env": "9.3.0"
   },
   "devDependencies": {
     "@stardust-configs/prettier-config": "0.2.0",
