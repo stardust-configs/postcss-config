@@ -41,7 +41,7 @@
     "prettier": "3.8.1",
     "standard-version": "9.5.0",
     "ts-node": "10.9.2",
-    "tsup": "7.2.0",
+    "tsup": "8.5.1",
     "typescript": "5.9.3",
     "vitest": "0.34.6"
   },
